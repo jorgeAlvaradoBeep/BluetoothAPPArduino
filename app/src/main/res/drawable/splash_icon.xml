@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="288"
+    android:viewportHeight="288">
+
+    <!--
+        Icono para la pantalla de inicio (SplashScreen).
+        El sistema enmascara con un circulo de 192dp en API 31+, asi que
+        el dibujo se mantiene en el centro (~144dp).
+        Glyph escalado: 24x24 -> 144 (scale 6), centrado en 288 (offset 72).
+    -->
+    <group
+        android:translateX="72"
+        android:translateY="72"
+        android:scaleX="6"
+        android:scaleY="6">
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M17.71,7.71L12,2h-1v7.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L11,14.41V22h1l5.71,-5.71l-4.3,-4.29L17.71,7.71zM13,5.83l1.88,1.88L13,9.59V5.83zM13,14.41l1.88,1.88L13,18.17V14.41z" />
+    </group>
+
+</vector>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BT Arduino</string>
+
+    <!-- Pantalla de dispositivos -->
+    <string name="title_devices">Dispositivos emparejados</string>
+    <string name="loading">Cargando…</string>
+    <string name="select_device">Selecciona un dispositivo para conectar:</string>
+    <string name="no_paired">No hay dispositivos emparejados. Empareja el HC-06 desde Ajustes &gt; Bluetooth (PIN normalmente 1234).</string>
+    <string name="refresh">Actualizar lista</string>
+    <string name="error_no_bt">Este dispositivo no tiene Bluetooth.</string>
+    <string name="error_bt_disabled">Bluetooth desactivado. Actívalo desde los ajustes.</string>
+    <string name="error_permissions">Se necesitan permisos de Bluetooth para continuar.</string>
+    <string name="error_connection">Error al conectar: %1$s</string>
+    <string name="connecting">Conectando a %1$s…</string>
+
+    <!-- Pantalla principal -->
+    <string name="connected_to">Conectado a: %1$s</string>
+    <string name="tap_to_send">Toca una opción para enviar su carácter. Lápiz = editar, papelera = eliminar.</string>
+    <string name="add_option">+ Añadir opción</string>
+    <string name="new_option">Nueva opción</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="char_will_send">Carácter que enviará: \"%1$s\"</string>
+    <string name="sent">Enviado: %1$s</string>
+    <string name="empty_char">Esta opción no tiene carácter asignado. Edítala primero.</string>
+    <string name="error_send">Error al enviar: %1$s</string>
+
+    <!-- Dialogos -->
+    <string name="edit_option">Editar opción</string>
+    <string name="delete_option">Eliminar opción</string>
+    <string name="delete_confirm">¿Seguro que quieres eliminar esta opción?</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_label">Título</string>
+    <string name="title_hint">Ej. Música 1</string>
+    <string name="char_label">Carácter a enviar</string>
+    <string name="char_hint">Ej. a</string>
+    <string name="char_help">Puede ser una letra, un número o una cadena corta. Se envía tal cual al Arduino.</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema principal de la app, una vez pasada la splash -->
+    <style name="Theme.BluetoothArduino" parent="Theme.Material3.DayNight" />
+
+    <!--
+        Tema de splash screen. Usa la API SplashScreen (AndroidX) y se
+        autoreemplaza por Theme.BluetoothArduino cuando la app esta lista.
+    -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/brand_blue</item>
+        <item name="postSplashScreenTheme">@style/Theme.BluetoothArduino</item>
+    </style>
+
+</resources>

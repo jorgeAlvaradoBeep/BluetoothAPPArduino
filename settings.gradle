@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+// Resolver de toolchains: permite a Gradle descargar JDKs automaticamente
+// (Adoptium/Foojay) en cualquier SO/arquitectura. Necesario para que el
+// Daemon JVM toolchain pueda hacer el "auto-provisioning".
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "BluetoothArduino"
+include ':app'
